@@ -90,13 +90,14 @@
 		FD7E8A8E1E1B051A00FBB912 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = "";
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Akshay Thakare";
 				TargetAttributes = {
 					FD7E8A951E1B051A00FBB912 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 345H89MQY2;
+						DevelopmentTeam = 4D37JSESM4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -261,10 +262,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 345H89MQY2;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4D37JSESM4;
 				INFOPLIST_FILE = HNY2017/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ast.HNY2017;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ast.example.HNY2017;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,10 +276,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 345H89MQY2;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4D37JSESM4;
 				INFOPLIST_FILE = HNY2017/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ast.HNY2017;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ast.example.HNY2017;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -302,6 +305,7 @@
 				FD7E8AAA1E1B051B00FBB912 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
